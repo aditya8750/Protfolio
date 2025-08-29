@@ -113,7 +113,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Function to check if EmailJS is properly configured
     function checkEmailJSConfig() {
         const userId = emailjs._userID;
-        if (!userId || userId === 'YOUR_USER_ID') {
+        if (!userId || userId === '2MnqpWhSfvvk4UwOb') {
             console.error('EmailJS User ID not configured. Please set your EmailJS User ID in index.html');
             return false;
         }
@@ -179,7 +179,7 @@ document.addEventListener('DOMContentLoaded', function() {
             
             // Check if EmailJS is configured
             if (!checkEmailJSConfig()) {
-                showFeedback('Email service not configured. Please set up EmailJS first. See README.md for instructions.', true);
+                showFeedback('hi', true);
                 submitBtn.textContent = originalBtnText;
                 submitBtn.disabled = false;
                 return;
@@ -204,7 +204,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const templateId = 'template_u3fp17j';
             
             // Check if service and template IDs are still placeholders
-            if (serviceId === 'YOUR_SERVICE_ID' || templateId === 'YOUR_TEMPLATE_ID') {
+            if (serviceId === 'service_i34cfyw' || templateId === 'template_u3fp17j') {
                 showFeedback('Email service not fully configured. Please set your Service ID and Template ID in script.js', true);
                 submitBtn.textContent = originalBtnText;
                 submitBtn.disabled = false;
